@@ -1,0 +1,27 @@
+/** @format */
+
+body {
+  padding-top: 70px;
+}
+
+footer {
+  margin: 50px auto;
+}
+
+/* Filters */
+
+.grayscale {
+  img {
+    -webkit-filter: grayscale(1);
+    -moz-filter: grayscale(1);
+    -o-filter: grayscale(1);
+    filter: grayscale(1);
+    padding-top: 20px;
+  }
+  :hover {
+    -webkit-filter: grayscale(0);
+    -moz-filter: grayscale(0);
+    -o-filter: grayscale(0);
+    filter: grayscale(0);
+  }
+}

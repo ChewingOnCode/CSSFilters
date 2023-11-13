@@ -1,5 +1,4 @@
 /** @format */
-
 body {
   padding-top: 70px;
 }
@@ -7,3 +6,16 @@ body {
 footer {
   margin: 50px auto;
 }
+
+/* Filters */
+.grayscale img {
+  -moz-filter: grayscale(1);
+  -o-filter: grayscale(1);
+  filter: grayscale(1);
+  padding-top: 20px;
+}
+.grayscale :hover {
+  -moz-filter: grayscale(0);
+  -o-filter: grayscale(0);
+  filter: grayscale(0);
+} /*# sourceMappingURL=styles.css.map */
