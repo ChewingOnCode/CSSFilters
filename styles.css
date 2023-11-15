@@ -26,6 +26,26 @@ body.blur img:hover {
   -o-filter: blur(0);
   filter: blur(0);
 }
+body.sepia img {
+  -moz-filter: sepia(1);
+  -o-filter: sepia(1);
+  filter: sepia(1);
+}
+body.sepia img:hover {
+  -moz-filter: sepia(0);
+  -o-filter: sepia(0);
+  filter: sepia(0);
+}
+body.inverted img {
+  -moz-filter: invert(1);
+  -o-filter: invert(1);
+  filter: invert(1);
+}
+body.inverted img:hover {
+  -moz-filter: invert(0);
+  -o-filter: invert(0);
+  filter: invert(0);
+}
 
 footer {
   margin: 50px auto;
