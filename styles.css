@@ -1,46 +1,73 @@
 /** @format */
-
 body {
-    padding-top: 70px;
-    /* Filters */
+  padding-top: 70px;
 }
 
-body img {
-    padding-top: 20px;
+img {
+  padding-top: 20px;
+}
+img.grayscale {
+  filter: grayscale(1);
+}
+img.grayscale:hover {
+  filter: grayscale(0);
+}
+img.blur {
+  filter: blur(5px);
+}
+img.blur:hover {
+  filter: blur(0);
+}
+img.sepia {
+  filter: sepia(1);
+}
+img.sepia:hover {
+  filter: sepia(0);
+}
+img.inverted {
+  filter: invert(1);
+}
+img.inverted:hover {
+  filter: invert(0);
+}
+img.opacity {
+  filter: opacity(0.5);
+}
+img.opacity:hover {
+  filter: opacity(1);
+}
+img.saturate {
+  filter: saturate(500%);
+}
+img.saturate:hover {
+  filter: saturate(0%);
+}
+img.contrast {
+  filter: contrast(0.5);
+}
+img.contrast:hover {
+  filter: contrast(1);
+}
+img.brightness {
+  filter: brightness(0.5);
+}
+img.brightness:hover {
+  filter: brightness(1);
+}
+img.hue-rotate {
+  filter: hue-rotate(90deg);
+}
+img.hue-rotate:hover {
+  filter: hue-rotate(0deg);
+}
+img.dropshadow {
+  filter: drop-shadow(15px 15px 10px #4444dd);
+}
+img.dropshadow:hover {
+  filter: drop-shadow(0 0 0);
 }
 
-body.grayscale img {
-    filter: grayscale(1);
-}
-
-body.grayscale img:hover {
-    filter: grayscale(0);
-}
-
-body.blur img {
-    filter: blur(5px);
-}
-
-body.blur img:hover {
-    filter: blur(0);
-}
-
-body.sepia img {
-    filter: sepia(1);
-}
-
-body.sepia img:hover {
-    filter: sepia(0);
-}
-
-body.inverted img {
-    filter: invert(1);
-}
-
-body.inverted img:hover {
-    filter: invert(0);
-}
-
+/* Filters */
 footer {
-    margin: 50px auto;
-} /*# sourceMappingURL=styles.css.map */
+  margin: 50px auto;
+}/*# sourceMappingURL=styles.css.map */

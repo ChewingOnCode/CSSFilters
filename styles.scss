@@ -1,46 +1,74 @@
 /** @format */
 
 body {
-    padding-top: 70px;
-    img {
-        padding-top: 20px;
+  padding-top: 70px;
+}
+img {
+  padding-top: 20px;
+  &.grayscale {
+    filter: grayscale(1);
+    &:hover {
+      filter: grayscale(0);
     }
-    /* Filters */
-    &.grayscale {
-        img {
-            filter: grayscale(1);
-
-            &:hover {
-                filter: grayscale(0);
-            }
-        }
+  }
+  &.blur {
+    filter: blur(5px);
+    &:hover {
+      filter: blur(0);
     }
-    &.blur {
-        img {
-            filter: blur(5px);
-            &:hover {
-                filter: blur(0);
-            }
-        }
+  }
+  &.sepia {
+    filter: sepia(1);
+    &:hover {
+      filter: sepia(0);
     }
-    &.sepia {
-        img {
-            filter: sepia(1);
-            &:hover {
-                filter: sepia(0);
-            }
-        }
+  }
+  &.inverted {
+    filter: invert(1);
+    &:hover {
+      filter: invert(0);
     }
-    &.inverted {
-        img {
-            filter: invert(1);
-            &:hover {
-                filter: invert(0);
-            }
-        }
+  }
+  &.opacity {
+    filter: opacity(0.5);
+    &:hover {
+      filter: opacity(1);
     }
+  }
+  &.saturate {
+    filter: saturate(500%);
+    &:hover {
+      filter: saturate(0%);
+    }
+  }
+  &.contrast {
+    filter: contrast(0.5);
+    &:hover {
+      filter: contrast(1);
+    }
+  }
+  &.brightness {
+    filter: brightness(0.5);
+    &:hover {
+      filter: brightness(1);
+    }
+  }
+  &.hue-rotate {
+    filter: hue-rotate(90deg);
+    &:hover {
+      filter: hue-rotate(0deg);
+    }
+  }
+  &.dropshadow {
+    filter: drop-shadow(15px 15px 10px #4444dd);
+    &:hover {
+      filter: drop-shadow(0 0 0);
+    }
+  }
 }
 
+/* Filters */
+
 footer {
-    margin: 50px auto;
+  margin: 50px auto;
 }
