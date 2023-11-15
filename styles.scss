@@ -8,57 +8,33 @@ body {
     /* Filters */
     &.grayscale {
         img {
-            -webkit-filter: grayscale(1);
-            -moz-filter: grayscale(1);
-            -o-filter: grayscale(1);
             filter: grayscale(1);
 
             &:hover {
-                -webkit-filter: grayscale(0);
-                -moz-filter: grayscale(0);
-                -o-filter: grayscale(0);
                 filter: grayscale(0);
             }
         }
     }
     &.blur {
         img {
-            -webkit-filter: blur(5px);
-            -moz-filter: blur(5px);
-            -o-filter: blur(5px);
             filter: blur(5px);
             &:hover {
-                -webkit-filter: blur(0);
-                -moz-filter: blur(0);
-                -o-filter: blur(0);
                 filter: blur(0);
             }
         }
     }
     &.sepia {
         img {
-            -moz-filter: sepia(1);
-            -webkit-filter: sepia(1);
-            -o-filter: sepia(1);
             filter: sepia(1);
             &:hover {
-                -moz-filter: sepia(0);
-                -webkit-filter: sepia(0);
-                -o-filter: sepia(0);
                 filter: sepia(0);
             }
         }
     }
     &.inverted {
         img {
-            -webkit-filter: invert(1);
-            -moz-filter: invert(1);
-            -o-filter: invert(1);
             filter: invert(1);
             &:hover {
-                -webkit-filter: invert(0);
-                -moz-filter: invert(0);
-                -o-filter: invert(0);
                 filter: invert(0);
             }
         }
